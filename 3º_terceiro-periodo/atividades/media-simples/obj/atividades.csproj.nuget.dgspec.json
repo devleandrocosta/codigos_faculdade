@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\minhas coisas\\faculdade\\1. materias\\terceiro periodo\\atividades\\media-simples\\atividades.csproj": {}
+    "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\atividades.csproj": {}
   },
   "projects": {
-    "D:\\minhas coisas\\faculdade\\1. materias\\terceiro periodo\\atividades\\media-simples\\atividades.csproj": {
+    "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\atividades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\minhas coisas\\faculdade\\1. materias\\terceiro periodo\\atividades\\media-simples\\atividades.csproj",
+        "projectUniqueName": "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\atividades.csproj",
         "projectName": "atividades",
-        "projectPath": "D:\\minhas coisas\\faculdade\\1. materias\\terceiro periodo\\atividades\\media-simples\\atividades.csproj",
+        "projectPath": "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\atividades.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "D:\\minhas coisas\\faculdade\\1. materias\\terceiro periodo\\atividades\\media-simples\\obj\\",
+        "outputPath": "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
