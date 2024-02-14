@@ -1,0 +1,176 @@
+* {box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#text-footer-link {
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: white;
+    list-style: none;
+    margin: 10px;
+}
+
+#text-footer-link:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#text-footer {
+    list-style: none;
+    color: white;
+    font-size: 1.0rem;
+}
+
+.logo {
+    height: 100px;
+    background-color: #1e2635;
+}
+
+#botao {
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#botao:hover {
+    background-color: white;
+    color:black;
+    border-color: #000;
+}
+
+#caixapesquisa {
+    background-color:black;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+#filtro-estilo{
+    background-color:black;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+#filtro-estilo::placeholder {
+    color: white;
+}
+
+#caixapesquisa::placeholder {
+    color: white;
+    opacity: 70%;
+}
+
+#nav-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#links {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+#rodape {
+    background-color: black;
+    text-align: center;
+}
+
+.copy {
+    background-color: rgb(17, 17, 17);
+    height: 23px;
+    font-size: 0.9rem;
+}
+#cop{
+    color: white;
+}
+
+.headline {
+    justify-content: space-between;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+}
+#headline {
+    justify-content: space-between;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 33px;
+}
+
+#card-img-top {
+    width: 120px;
+    padding-top: 20px;
+    align-items: center;
+}
+#card {
+    font-family: FreeMono, monospace;
+    border-radius: 9px;
+    border-color: black;
+    background-color:white;
+    align-items: center;
+    margin: 2px;
+}
+#tela{
+    text-align: center;
+}
+/* detalhes */
+#img-descriçao{
+    width: 270px;
+}
+
+
+@media screen and (max-width: 1080px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #carrossel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 390px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+}

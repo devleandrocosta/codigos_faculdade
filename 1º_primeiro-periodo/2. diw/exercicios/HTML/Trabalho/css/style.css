@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1e2635;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: aliceblue;
+    list-style: none;
+    margin: 10px;
+}
+
+a:hover {
+    background-color:#6a7189;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    font-size: 1.0rem;
+}
+
+.logo {
+    height: 160px;
+    background-color: #1e2635;
+}
+
+#botao {
+    border-color: #121b29;
+    background-color: #121b29;
+    color: #abbad1;
+    font-size: 1.3rem;
+}
+
+#botao:hover {
+    background-color: #102949;
+}
+
+#caixapesquisa {
+    background-color: #121b29;
+    color: aliceblue;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+#caixapesquisa::placeholder {
+    color: #abbad1;
+    opacity: 60%;
+}
+
+#nav-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#links {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+#rodape {
+    background-color: #121b29;
+}
+
+.copy {
+    background-color: #6a7189;
+    height: 23px;
+    font-size: 0.9rem;
+}
+
+.headline {
+    justify-content: space-between;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+}
+
+#filtro{
+    background-color: #6a7189;
+    color: aliceblue;
+    border-radius: 5px;
+}
+#filtro::placeholder{
+    color: aliceblue;;
+}
+
+#caixafiltro{
+    height: 220px;
+    background-color: #121b29;
+    border-radius: 10px;
+}
+
+#botaofiltro{
+    border-color: #121b29;
+    background-color: #6a7189;
+    color: #abbad1;
+    font-size: 0.7rem;
+}
+#botaofiltro:hover{
+    background-color: aliceblue;;
+    color:black;
+}
+
+.card-img-top {
+    width: 140px;
+    padding-top: 20px;
+}
+.card {
+    height: 280px;
+    font-family: FreeMono, monospace;
+    border-radius: 9px;
+    background-color:#6a7189;
+    margin: 10px 9px;
+}
+
+#preço:hover {
+    cursor: pointer;
+    background: #e9e7f0;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardmelhores {
+    background-color:#6a7189;
+    margin: 10px;
+    border-radius: 10px;
+    height: 740px;
+}
+
+#cardlateral {
+    height: 220px;
+    width: 250px;
+    margin: 10px 9px;
+}
+
+.titulomelhores {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#barralateral{
+    width: 298px;
+}
+
+#newslatter {
+    width: 287px;
+    margin: 0.2px;
+}
+
+@media screen and (max-width: 1080px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #carrossel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 390px){
+
+    #caixafiltro{
+        height: 250px;
+    }
+
+}
