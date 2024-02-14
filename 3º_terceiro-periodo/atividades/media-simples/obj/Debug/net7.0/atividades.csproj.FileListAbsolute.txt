@@ -28,3 +28,17 @@ D:\minhas coisas\faculdade\1. materias\terceiro periodo\atividades\media-simples
 D:\minhas coisas\faculdade\1. materias\terceiro periodo\atividades\media-simples\obj\Debug\net7.0\atividades.pdb
 D:\minhas coisas\faculdade\1. materias\terceiro periodo\atividades\media-simples\obj\Debug\net7.0\atividades.genruntimeconfig.cache
 D:\minhas coisas\faculdade\1. materias\terceiro periodo\atividades\media-simples\obj\Debug\net7.0\ref\atividades.dll
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\bin\Debug\net7.0\atividades.exe
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\bin\Debug\net7.0\atividades.deps.json
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\bin\Debug\net7.0\atividades.runtimeconfig.json
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\bin\Debug\net7.0\atividades.dll
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\bin\Debug\net7.0\atividades.pdb
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.AssemblyInfoInputs.cache
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.AssemblyInfo.cs
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.csproj.CoreCompileInputs.cache
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.dll
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\refint\atividades.dll
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.pdb
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\atividades.genruntimeconfig.cache
+C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\obj\Debug\net7.0\ref\atividades.dll

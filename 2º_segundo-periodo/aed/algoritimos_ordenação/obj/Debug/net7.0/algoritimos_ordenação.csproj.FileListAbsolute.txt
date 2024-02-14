@@ -26,3 +26,17 @@ E:\exercicios\algoritimos_ordenação\obj\Debug\net7.0\refint\algoritimos_ordena
 E:\exercicios\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.pdb
 E:\exercicios\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.genruntimeconfig.cache
 E:\exercicios\algoritimos_ordenação\obj\Debug\net7.0\ref\algoritimos_ordenação.dll
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\bin\Debug\net7.0\algoritimos_ordenação.exe
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\bin\Debug\net7.0\algoritimos_ordenação.deps.json
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\bin\Debug\net7.0\algoritimos_ordenação.runtimeconfig.json
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\bin\Debug\net7.0\algoritimos_ordenação.dll
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\bin\Debug\net7.0\algoritimos_ordenação.pdb
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.AssemblyInfoInputs.cache
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.AssemblyInfo.cs
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.csproj.CoreCompileInputs.cache
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.dll
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\refint\algoritimos_ordenação.dll
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.pdb
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\algoritimos_ordenação.genruntimeconfig.cache
+C:\Faculdade\codigos_faculdade\2º_segundo-periodo\aed\algoritimos_ordenação\obj\Debug\net7.0\ref\algoritimos_ordenação.dll

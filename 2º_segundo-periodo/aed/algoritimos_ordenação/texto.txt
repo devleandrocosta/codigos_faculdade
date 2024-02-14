@@ -1,0 +1,9 @@
+Tipo de ordenação: [ordenado], Metodo [Bolha], [0] milisegundos gastos, [1000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [110] milisegundos gastos, [10000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [9069] milisegundos gastos, [100000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [0] milisegundos gastos, [1000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [83] milisegundos gastos, [10000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [8216] milisegundos gastos, [100000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [0] milisegundos gastos, [1000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [101] milisegundos gastos, [10000] elementos no vetor
+Tipo de ordenação: [ordenado], Metodo [Bolha], [8123] milisegundos gastos, [100000] elementos no vetor

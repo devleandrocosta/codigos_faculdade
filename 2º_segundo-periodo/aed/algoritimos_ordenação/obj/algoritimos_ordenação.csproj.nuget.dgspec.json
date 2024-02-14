@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\minhas coisas\\faculdade\\1. materias\\segundo periodo\\aed\\Estudos_faculdade\\algoritimos_ordenação\\algoritimos_ordenação.csproj": {}
+    "C:\\Faculdade\\codigos_faculdade\\2º_segundo-periodo\\aed\\algoritimos_ordenação\\algoritimos_ordenação.csproj": {}
   },
   "projects": {
-    "D:\\minhas coisas\\faculdade\\1. materias\\segundo periodo\\aed\\Estudos_faculdade\\algoritimos_ordenação\\algoritimos_ordenação.csproj": {
+    "C:\\Faculdade\\codigos_faculdade\\2º_segundo-periodo\\aed\\algoritimos_ordenação\\algoritimos_ordenação.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\minhas coisas\\faculdade\\1. materias\\segundo periodo\\aed\\Estudos_faculdade\\algoritimos_ordenação\\algoritimos_ordenação.csproj",
+        "projectUniqueName": "C:\\Faculdade\\codigos_faculdade\\2º_segundo-periodo\\aed\\algoritimos_ordenação\\algoritimos_ordenação.csproj",
         "projectName": "algoritimos_ordenação",
-        "projectPath": "D:\\minhas coisas\\faculdade\\1. materias\\segundo periodo\\aed\\Estudos_faculdade\\algoritimos_ordenação\\algoritimos_ordenação.csproj",
+        "projectPath": "C:\\Faculdade\\codigos_faculdade\\2º_segundo-periodo\\aed\\algoritimos_ordenação\\algoritimos_ordenação.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "D:\\minhas coisas\\faculdade\\1. materias\\segundo periodo\\aed\\Estudos_faculdade\\algoritimos_ordenação\\obj\\",
+        "outputPath": "C:\\Faculdade\\codigos_faculdade\\2º_segundo-periodo\\aed\\algoritimos_ordenação\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
