@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-fonte-color: #1E2025;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff30;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px #ffffff2e solid;
+}
+.title{
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: var(--main-fonte-color);
+}
+
+.container{
+    background-image: url(../praticas-css/wallpaper.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    width: 1299px;
+    height: auto;
+}
+.container-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff30;
+    backdrop-filter: blur(7px);
+    border: 1px #ffffff2e solid;
+    border-radius: 10px;
+    height: 250px;
+    width: 360px;
+    margin: 15px;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
