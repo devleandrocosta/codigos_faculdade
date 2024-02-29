@@ -5,6 +5,7 @@ class Menu{
         do{
             Console.WriteLine("1 - Sacar");
             Console.WriteLine("2 - Depositar");
+            Console.WriteLine("3 - Extrato");
             Console.WriteLine("0 - Sair");
             Console.Write("Opção: ");
             op = Convert.ToInt32(Console.ReadLine());
@@ -14,6 +15,9 @@ class Menu{
                 break;
                 case 2:
                     banco.Depositar();
+                break;
+                case 3:
+                    banco.ImprimirExtrado();
                 break;
                 default:
                     Console.WriteLine("Digite uma opção valida");

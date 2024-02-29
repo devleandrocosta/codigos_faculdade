@@ -20,6 +20,7 @@ class Banco{
                 conta.limite -= valor;
             }
         }
+        conta.InserirMovimento("Saque: ", valor);
         conta.Mostrar();
     }
     public void Depositar(){
@@ -46,6 +47,11 @@ class Banco{
                 conta.saldo += valor;
             } 
         }
+        conta.InserirMovimento("Deposito:", valor);
         conta.Mostrar();
+    }
+    public void ImprimirExtrado()
+    {
+        conta.Imprimir();
     }
 }

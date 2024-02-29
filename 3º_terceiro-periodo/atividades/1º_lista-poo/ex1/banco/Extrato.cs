@@ -1,18 +1,24 @@
-class Extrato{
-    public string tipo;
-    private double valor;
-    private double saldo;
-    private int conta;
-    private double limite;
-
-    public Extrato(string tipo, double valor, double saldo, int conta, double limite){
-        this.tipo = tipo;
-        this.valor = valor;
-        this.saldo = saldo;
-        this.conta = conta;
-        this.limite = limite;
+class Extrato
+{
+    public List<string> extrato;
+    public Extrato()
+    {
+        extrato = new List<string>();
     }
-    public void Mostrar(){
-        Console.WriteLine(tipo+" "+valor+" "+saldo+" "+conta+" "+limite);
+
+    public void Inserir(string tipo, double valor)
+    {
+        if (extrato.Count == 10)
+        {
+            extrato.RemoveAt(0);
+        }
+        extrato.Add(tipo + " " + valor);
+    }
+
+    public void ExtratoMetodo()
+    {
+        if (extrato.Count > 0){
+            Console.WriteLine(extrato[extrato.Count - 1]);
+        }
     }
 }
