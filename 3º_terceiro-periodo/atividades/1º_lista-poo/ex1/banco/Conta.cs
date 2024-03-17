@@ -29,6 +29,13 @@ class Conta
             Console.WriteLine((i+1) + "ª: " + extrato.extrato[i]);
         }
     }
+    public void UltimoMovimento()
+    {
+        if (extrato.extrato.Count > 0)
+        {
+            Console.WriteLine(extrato.extrato[extrato.extrato.Count - 1]);
+        }
+    }
 
     public void Mostrar()
     {

@@ -54,4 +54,7 @@ class Banco{
     {
         conta.Imprimir();
     }
+    public void UltimoMovimento(){
+        conta.UltimoMovimento();
+    }
 }
