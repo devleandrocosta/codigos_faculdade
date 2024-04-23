@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Rul3N9Iz2wJ3TGTUSQi9k0k1ZfApPwMf0b9n5F+syQkE69ysQ5c2241Kxav19rJjV0Y3Za5loAE2BoOb0N9Wag==",
+  "dgSpecHash": "L5y7bOXTqON8v+W6g2VlSS8tkKI62hkwO/Db1a5npYfooAzLlvO1CHzxdkUW6hhJ8atElrN7PfMMuP4tpSAVSA==",
   "success": true,
   "projectFilePath": "C:\\Faculdade\\codigos_faculdade\\3º_terceiro-periodo\\atividades\\media-simples\\atividades.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

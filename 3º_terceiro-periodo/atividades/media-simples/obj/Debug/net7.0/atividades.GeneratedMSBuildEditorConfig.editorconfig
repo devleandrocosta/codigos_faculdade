@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = atividades
 build_property.ProjectDir = C:\Faculdade\codigos_faculdade\3º_terceiro-periodo\atividades\media-simples\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
