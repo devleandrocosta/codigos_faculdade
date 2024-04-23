@@ -15,7 +15,7 @@ class Extrato
         extrato.Add(tipo + " " + valor);
     }
 
-    public void ExtratoMetodo()
+    public void UltimoMovimento()
     {
         if (extrato.Count > 0){
             Console.WriteLine(extrato[extrato.Count - 1]);
