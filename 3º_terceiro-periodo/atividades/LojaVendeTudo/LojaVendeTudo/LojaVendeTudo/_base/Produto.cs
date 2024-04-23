@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,9 @@ namespace LojaVendeTudo
         private string codigo { get; }
         public int quantidadeEstoque { get; private set; }
         protected double precoCompra { get; }
-        private const double CUSTO_FIXO = 0.2;
-        private const double CUSTO_VARIAVEL = 0.1;
+        private const double CUSTO_FIXO = 20;
+        private const double CUSTO_VARIAVEL = 10;
+        private const double PERCENTUAL_LUCRO_PADRAO = 20;
 
         public Produto(string nome, string codigo, int quantidadeEstoque, double precoCompra)
         {
@@ -50,25 +52,27 @@ namespace LojaVendeTudo
         /// <returns>><c>true</c> se a quantidade foi removida do estoque; para outros casos, <c>false</c>.</returns>
         public bool RemoverEstoque(int quantidade)
         {
-            if(quantidadeEstoque != 0 && quantidadeEstoque >= quantidade){
+            if(quantidade > 0 && quantidadeEstoque >= quantidade){
                 quantidadeEstoque -= quantidade;
                 return true;
             }
-            return false;
+            else{
+                return false;
+            }
         }
 
         /// <summary>Método para cálculo de estoque.</summary>
         /// <returns>Valor correspondente ao preço de compra, multiplicado pelo índice de comercialização.</returns>
-        public virtual double obterPrecoVenda(double percentual_lucro)
+        public virtual double obterPrecoVenda()
         {
-            return precoCompra * IndiceComercializacao(percentual_lucro);
+            return precoCompra * IndiceComercializacao(PERCENTUAL_LUCRO_PADRAO);
         }
 
         /// <summary>Método para cálculo do valor total em estoque.</summary>
         /// <returns>Valor correspondente à quantidade em estoque multiplicado pelo preço de venda.</returns>
         public double CalcularValorTotalEstoque()
         {
-            throw new NotImplementedException();
+            return quantidadeEstoque * obterPrecoVenda();
         }
 
         /// <summary>Sobrescrita do método ToString().</summary>

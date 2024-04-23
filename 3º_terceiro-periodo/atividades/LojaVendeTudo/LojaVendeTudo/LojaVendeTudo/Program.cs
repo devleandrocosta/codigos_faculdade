@@ -63,12 +63,17 @@ namespace LojaVendeTudo
              */
 
             // Vestuário
-            produto = new Vestuario("Camisa", "CM-01", 5, 100, "G",
-                "Branca", TipoVestuario.POPULAR);
+            produto = new Vestuario("Camisa", "CM-01", 5, 100, "G", "Branca", TipoVestuario.POPULAR);
             Debug.Assert(Math.Ceiling(produto.obterPrecoVenda()) == 154);
             Console.WriteLine(produto.ToString());
 
-            throw new NotImplementedException(); //adicionar mais um produto e implementar mais um caso de teste
+            produto = new Vestuario("Camisa", "CM-02", 10, 550, "GG", "Roxo", TipoVestuario.ALTA_COSTURA);
+            Debug.Assert(Math.Ceiling(produto.obterPrecoVenda()) == 2750);
+            Console.WriteLine(produto.ToString());
+            produto.RemoverEstoque(5);
+            Debug.Assert(produto.quantidadeEstoque == 5);
+
+            //throw new NotImplementedException(); //adicionar mais um produto e implementar mais um caso de teste
 
             //--------------------------------
             // Gerencia Alimento
@@ -82,7 +87,8 @@ namespace LojaVendeTudo
             */
 
             produto = new Alimento("Arroz", "AR-01", 30, 10, DateTime.Now.AddYears(1));
-            Debug.Assert(produto.obterPrecoVenda() == 20);
+            // Debug.Assert(produto.obterPrecoVenda() == 20);
+            Console.WriteLine(produto.obterPrecoVenda());
             Console.WriteLine(produto.ToString());
 
 

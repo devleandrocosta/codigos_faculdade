@@ -10,6 +10,8 @@ namespace LojaVendeTudo
     {
         private MarcaEletronico marca;
         private string modelo;
+        private const double PERCENTUAL_LUCRO_APPLE = 20;
+        private const double PERCENTUAL_LUCRO_ELETRONICO = 10;
 
         //propriedades
         public MarcaEletronico Marca { get => marca; }
@@ -18,7 +20,8 @@ namespace LojaVendeTudo
         public Eletronico(string nome, string codigo, int quantidadeEstoque, double precoCompra, MarcaEletronico marca, string modelo)
             : base(nome, codigo, quantidadeEstoque, precoCompra)
         {
-            throw new NotImplementedException();
+            this.marca = marca;
+            this.modelo = modelo;
         }
 
         public override string ToString()
@@ -26,6 +29,14 @@ namespace LojaVendeTudo
             return base.ToString() +
                    $"Marca: {this.marca}\n" +
                    $"Modelo: {this.modelo}\n";
+        }
+
+        public override double obterPrecoVenda()
+        {
+            if(marca == MarcaEletronico.APPLE){
+                return precoCompra * IndiceComercializacao(PERCENTUAL_LUCRO_APPLE);
+            }
+            return precoCompra * IndiceComercializacao(PERCENTUAL_LUCRO_ELETRONICO);
         }
     }
 }
