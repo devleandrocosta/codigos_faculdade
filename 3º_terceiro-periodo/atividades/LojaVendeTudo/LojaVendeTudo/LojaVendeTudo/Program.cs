@@ -87,8 +87,7 @@ namespace LojaVendeTudo
             */
 
             produto = new Alimento("Arroz", "AR-01", 30, 10, DateTime.Now.AddYears(1));
-            // Debug.Assert(produto.obterPrecoVenda() == 20);
-            Console.WriteLine(produto.obterPrecoVenda());
+            Debug.Assert(produto.obterPrecoVenda() == 25);
             Console.WriteLine(produto.ToString());
 
 
